@@ -16,6 +16,9 @@
                 <li><a href="exo3.php">Exercice3</a></li>
                 <li><a href="exo4.php">Exercice4</a></li>
                 <li><a href="exo5.php">Exercice5</a></li>
+                <li><a href="exo6.php">Exercice6</a></li>
+                <li><a href="exo7.php">Exercice7</a></li>
+                <li><a href="exo8.php">Exercice8</a></li>
             </ul>
         </nav>
     </header>

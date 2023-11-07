@@ -1,0 +1,64 @@
+header {
+  justify-content: center;
+  background-color: #4b4a4a;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 25%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header img {
+  object-fit: cover;
+  height: 25%;
+  width: 25%;
+  margin-left: 10px;
+}
+header div {
+  text-align: justify;
+  color: white;
+  margin-left: 50px;
+  font-size: x-large;
+}
+header div p:nth-child(3) {
+  color: gray;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+body section {
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+}
+body section button {
+  color: white;
+  background-color: #406893;
+}
+body form {
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+body form select {
+  margin-bottom: 10px;
+}
+body form div {
+  align-items: start;
+  flex-direction: row;
+  width: 25%;
+  text-align: start;
+}
+body form input:nth-child(-n+4) {
+  width: 35%;
+  margin-top: 20px;
+}
+body form input:nth-child(6) {
+  background-color: #406893;
+  color: white;
+}

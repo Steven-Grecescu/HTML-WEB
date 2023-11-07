@@ -1,13 +1,13 @@
 <?php ob_start()?>
-<form action="#" method="post">
-    <label for="rayon">Nombre : </label>
-    <input type="number" name="rayon" id="rayon">
-    <label for="circ">Circonference</label>
-    <input type="checkbox" name="circ" id="circ" value="circ">
-    <label for="surface">Surface</label>
-    <input type="checkbox" name="surface"id="surface" value="surface"> <br>
-    <input type="submit" value="Envoyer">
-</form>
+<form action="#" method="post">                                                 <!--//    form en post      -->
+    <label for="rayon">Nombre : </label>                                        <!--//                      -->
+    <input type="number" name="rayon" id="rayon">                               <!--//                      -->
+    <label for="circ">Circonference</label>                                     <!--//                      -->
+    <input type="checkbox" name="circ" id="circ" value="circ">                  <!--// Declaration du form -->
+    <label for="surface">Surface</label>                                        <!--//                      -->
+    <input type="checkbox" name="surface"id="surface" value="surface"> <br>     <!--//                      -->
+    <input type="submit" value="Envoyer">                                       <!--//                      -->
+</form>                                                                         <!--//                      -->
 <div class="rayon">
 <?php 
     if(isset($_POST["rayon"])){

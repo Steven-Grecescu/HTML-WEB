@@ -1,14 +1,14 @@
 <?php ob_start()?>
-<form action="#" method="post">
-    <label for="valeur">Valeur : </label>
-    <input type="number" name="valeur" id="valeur">
-    <input type="submit" value="Envoyer">
-</form>
+<form action="#" method="post">                                    <!--//  form en post        -->
+    <label for="valeur">Valeur : </label>                          <!--//                      -->
+    <input type="number" name="valeur" id="valeur">                <!--// Declaration du form  -->
+    <input type="submit" value="Envoyer">                          <!--//                      -->
+</form>                                                            <!--//                      -->
 <div class="trouve">
 <?php 
 session_start();
 if($_SESSION["rand"] == 0){ // Verification pour attribuer un nouveau nombre aleatoire 
-$_SESSION["rand"] = rand(1,10); //Atribution de la valeur aleatoire a la superglobal
+$_SESSION["rand"] = rand(1,10); //Atribution de la valeur aleatoire a la superglobal SESSION
 }
     if(isset($_POST["valeur"])){
         $Saisie = $_POST["valeur"];
